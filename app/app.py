@@ -4,8 +4,8 @@ import numpy as np
 import pandas as pd
 
 # Load model
-model = joblib.load('../model/extraTreesRegressor.pkl')
-scaler = joblib.load('../model/scaler.pkl')
+model = joblib.load('..\model\extraTreesRegressor.pkl')
+scaler = joblib.load('..\model\scaler.pkl')
 
 
 # App title
